@@ -1,0 +1,62 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.7.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "6fa43d2"
+  },
+  "schemaVersion": 19,
+  "id": "form_showResults",
+  "components": [
+    {
+      "text": "## Your Request has been Answered",
+      "type": "text",
+      "layout": {
+        "row": "Row_0cibdps",
+        "columns": null
+      },
+      "id": "Field_0zucv9h"
+    },
+    {
+      "text": "#### You asked the following {{inputText}}",
+      "type": "text",
+      "layout": {
+        "row": "Row_0ha11za",
+        "columns": null
+      },
+      "id": "Field_140iral"
+    },
+    {
+      "label": "AI Response",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_14spv6w",
+        "columns": null
+      },
+      "id": "Field_14433w6",
+      "key": "myResults",
+      "readonly": true
+    },
+    {
+      "label": "Review AI performance?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_0hjx9ej",
+        "columns": null
+      },
+      "id": "Field_1cvryxr",
+      "key": "aiJudge"
+    }
+  ],
+  "type": "default"
+}

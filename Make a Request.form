@@ -1,0 +1,32 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.8.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "6fa43d2"
+  },
+  "schemaVersion": 19,
+  "id": "form_initiateRequest",
+  "components": [
+    {
+      "text": "### Make a Request",
+      "type": "text",
+      "layout": {
+        "row": "Row_12vz3m4",
+        "columns": null
+      },
+      "id": "Field_15ks9bb"
+    },
+    {
+      "label": "How can I help you today?",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_1xv7dqx",
+        "columns": null
+      },
+      "id": "Field_1cse69o",
+      "key": "inputText"
+    }
+  ],
+  "type": "default"
+}
